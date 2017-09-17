@@ -1,0 +1,14 @@
+span {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.under-construction {
+  margin-top: 50px;
+}
+
+.facebook-page {
+  margin: auto;
+  width: 50%;
+}
