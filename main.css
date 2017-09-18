@@ -1,11 +1,52 @@
-span {
-  display: block;
-  text-align: center;
-  margin-bottom: 50px;
+@font-face {
+  font-family: "AC-Nixie";
+  src: url("AC-Nixie.otf")
+}
+body {
+  font-family: "AC-Nixie";
 }
 
-.under-construction {
-  margin-top: 50px;
+.content {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition-property: color;
+  transition-duration: .3s;
+}
+
+a:hover, a.current {
+  color: #905;
+  text-decoration: line-through;
+}
+
+.menu {
+  display: inline;
+  float: left;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.main-content {
+  display: inline-grid;
+  max-width: 500px;
+  margin-left: 190px;
+  margin-top: 18px;
+}
+
+span {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .facebook-page {
