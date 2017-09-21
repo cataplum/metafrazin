@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
   <link rel"icon" type="image/x-icon" href="favicon.ico">
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9255898-4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,33 +17,34 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="logo">
-      <img src="logo.jpg" alt="">
-    </div>
-  </div>
-
-  <div class=content>
-      <div class="menu">
-        <ul>
-          <li><a href="index.html" class="current">Αρχική</a></li>
-          <li><a href="videos.html">Videos</a></li>
-          <li><a href="texts.html">Κείμενα</a></li>
-          <li><a href="contact.html">Επαφή</a></li>
-        </ul>
+  <div class="container">
+      <div class="row media header">
+        <div class="col d-flex logo">
+          <a href="index.html"><img src="logo.jpg" alt=""></a>
+        </div>
       </div>
+      <div class="row content">
+          <div class="col-3 menu" id="menu">
+            <nav class="nav flex-sm-column">
+              <a href="index.html" class="nav-link active">Αρχική</a>
+              <a href="videos.html" class="nav-link">Videos</a>
+              <a href="texts.html" class="nav-link">Κείμενα</a>
+            <a href="contact.html" class="nav-link">Επαφή</a>
+            </nav>
+          </div>
 
-      <div class="main-content">
-        <span>
-          Η σελίδα είναι υπό κατασκευή. Μπορείτε να δείτε τις τελευταίες δημοσιεύσεις μου στη σελίδα του Facebook.
-        </span>
-        <span>
-          The website is under construction. In the meantime, you can see my latest translations on my Facebook page.
-        </span>
+          <div class="col main-content">
+            <span>
+              Η σελίδα είναι υπό κατασκευή. Μπορείτε να δείτε τις τελευταίες δημοσιεύσεις μου στη σελίδα του Facebook.
+            </span>
+            <span><i>
+              The website is under construction. In the meantime, you can see my latest translations on my Facebook page.
+            </i></span>
 
-      <div class="facebook-page">
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmetafrazin%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1883200151938610" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <div class="facebook-page">
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmetafrazin%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1883200151938610" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
 </body>
