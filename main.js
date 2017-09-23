@@ -1,7 +1,8 @@
 function init() {
 
   $('.hamburger-menu').on('click', function (){
-    $('.menu').addClass('c-menu c-menu--slide-left is-active');
+    $('.menu').addClass('col-5 c-menu c-menu--slide-left is-active');
+    $('.menu').removeClass('col-3');
     $('.c-mask').addClass('is-active');
   });
 
