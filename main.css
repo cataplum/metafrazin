@@ -43,6 +43,7 @@ a:hover, a.current {
   margin-bottom: 10px;
   font-size: larger;
   font-weight: bold;
+  display: inline;
 }
 
 .main-content {
