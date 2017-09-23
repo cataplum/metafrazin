@@ -13,28 +13,38 @@
 
     gtag('config', 'UA-9255898-4');
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <div class="header">
-    <div class="logo">
-      <img src="logo.jpg" alt="">
-    </div>
-  </div>
+  <div class="container">
+      <div class="row justify-content-between align-items-center media header">
 
-  <div class=content>
-      <div class="menu">
-        <ul>
-          <li><a href="index.html">Αρχική</a></li>
-          <li><a href="videos.html" class="current">Videos</a></li>
-          <li><a href="texts.html">Κείμενα</a></li>
-          <li><a href="contact.html">Επαφή</a></li>
-        </ul>
-      </div>
+        <div class="col-3 d-flex logo">
+          <a href="index.html"><img src="logo.jpg" alt=""></a>
+        </div>
 
-      <div class="main-content">
-        <span> Εδώ θα βρείτε όλα τα βίντεο που έχω υποτιτλίσει. </span>
-        <span><i> Here you can find all the videos that I have translated.</i> </span>
+          <div class="col-3 hamburger-menu">
+            <img src="ham-menu.png" alt="">
+          </div>
+
+      </div>
+      <div class="row content">
+        <div class="col-3 menu">
+          <nav class="nav flex-sm-column">
+            <a href="index.html" class="nav-link">Αρχική</a>
+            <a href="videos.html" class="nav-link active">Videos</a>
+            <a href="texts.html" class="nav-link">Κείμενα</a>
+          <a href="contact.html" class="nav-link">Επαφή</a>
+          </nav>
+        </div>
+
+          <div class="col main-content">
+            <span> Εδώ θα βρείτε όλα τα βίντεο που έχω υποτιτλίσει. </span>
+            <span><i> Here you can find all the videos that I have translated.</i> </span>
+          </div>
+          <div id="c-mask" class="c-mask"></div>
       </div>
   </div>
+  <script src="main.js"></script>
 </body>

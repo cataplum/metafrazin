@@ -14,17 +14,25 @@
 
     gtag('config', 'UA-9255898-4');
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div class="container">
-      <div class="row media header">
-        <div class="col d-flex logo">
+      <div class="row justify-content-between align-items-center media header">
+
+        <div class="col-3 d-flex logo">
           <a href="index.html"><img src="logo.jpg" alt=""></a>
         </div>
+
+          <div class="col-3 hamburger-menu">
+            <img src="ham-menu.png" alt="">
+          </div>
+
       </div>
       <div class="row content">
-          <div class="col-3 menu" id="menu">
+
+          <div class="col-3 menu">
             <nav class="nav flex-sm-column">
               <a href="index.html" class="nav-link active">Αρχική</a>
               <a href="videos.html" class="nav-link">Videos</a>
@@ -45,6 +53,8 @@
               <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmetafrazin%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1883200151938610" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
           </div>
         </div>
+        <div id="c-mask" class="c-mask"></div>
       </div>
   </div>
+  <script src="main.js"></script>
 </body>
