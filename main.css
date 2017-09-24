@@ -110,3 +110,14 @@ span {
   .hamburger-menu img {
     max-width: 35px;
   }
+
+}
+
+.photo {
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+.translation-text {
+  text-align: left;
+}
