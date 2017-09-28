@@ -136,3 +136,13 @@ h3 {
 .translation-by {
   text-align: right;
 }
+
+.card {
+  margin-bottom: 20px;
+  width: 20rem;
+}
+
+.btn-primary {
+  background-color: #721c24;
+  border-color: #905;
+}
