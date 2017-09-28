@@ -146,3 +146,13 @@ h3 {
   background-color: #721c24;
   border-color: #905;
 }
+
+.btn-primary:hover {
+  background-color: #721c24;
+  border-color: #905;
+}
+
+.btn-primary:visited {
+  background-color: #721c24;
+  border-color: #905;
+}
